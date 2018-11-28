@@ -3,7 +3,7 @@
 
 ### 基本功能 
 
-- 单页应用（spa）
+- 单页应用（SPA）
 - react 路由
 - react-redux
 - 按需加载
