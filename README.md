@@ -4,7 +4,7 @@
 ### 基本功能 
 
 - 单页应用（spa）
-- react 路由
+- react 路由
 - react-redux
 - 按需加载
 - less
