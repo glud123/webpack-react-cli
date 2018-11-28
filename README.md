@@ -34,7 +34,7 @@ npm run build
 ```
 webpack-react-cli/
 ├── README.md                   
-├── app.js                      //项目入口文件
+├── app.js                      // 项目入口文件
 ├── config                      // webpack 配置文件夹
 │   ├── webpack.common.js       // webpack 主要配置
 │   ├── webpack.dev.js          // webpack 开发配置
