@@ -1,10 +1,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-module.exports = (dirname) => {
+module.exports = dirname => {
     return {
-        entry: {
-            app: "./app.js"
-        },
+        entry: { main: ["babel-polyfill", "./app.js"] },
         output: {
             path: path.join(dirname, "./dist"),
             filename: "[name].[hash].js", // 生产环境可以使用 chunkhash 文件内容 hash 校验
